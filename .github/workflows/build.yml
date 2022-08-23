@@ -32,8 +32,8 @@ jobs:
           remote: /www/wwwroot/cicd-nuxt3.zeroojs.com/app/.nuxt # 目标路径（服务器）
           scp: |
             ./static/* => "/www/wwwroot/cicd-nuxt3.zeroojs.com/app/static"
-            ./package.json => "/www/wwwroot/cicd-nuxt3.zeroojs.com/app/package.json"
-            ./nuxt.config.js => "/www/wwwroot/cicd-nuxt3.zeroojs.com/app/nuxt.config.js"
+            ./package.json => "/www/wwwroot/cicd-nuxt3.zeroojs.com/app"
+            ./nuxt.config.js => "/www/wwwroot/cicd-nuxt3.zeroojs.com/app"
       # 在服务器端执行相关指令
       - name: Executing remote ssh commands
         uses: appleboy/ssh-action@master
