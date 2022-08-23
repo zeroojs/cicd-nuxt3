@@ -42,5 +42,5 @@ jobs:
             # export NODE_HOME=/www/server/nvm/versions/node/v14.17.0/bin/node  # 可使用`whereis node`查询node所在的目录
             # export PATH=$PATH:$NODE_HOME/bin # 重新定义node的环境变量（必需，这样才能在后续工作流程中运行 npm install 等指令，否则会报错）
             npm install # 安装项目依赖
-            pm2 delete cicd_nuxt3 # 删除旧的进程
-            pm2 start --name cicd_nuxt3 npm -- run start # 启动新的进程
+            pm2 delete cicd_nuxt3_3005 # 删除旧的进程
+            pm2 start --name cicd_nuxt3_3005 npm -- run start # 启动新的进程
