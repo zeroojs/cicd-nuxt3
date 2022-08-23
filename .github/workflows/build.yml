@@ -28,8 +28,8 @@ jobs:
           user: ${{ secrets.HOST_USER }} # 服务器用户名
           pass: ${{ secrets.HOST_PASS }} # 服务器密码
           connect_timeout: 30s
-          local: './*' # 源路径（工作流）
-          remote: /www/wwwroot/cicd-nuxt3.zeroojs.com/app # 目标路径（服务器）
+          local: './.nuxt/*' # 源路径（工作流）
+          remote: /www/wwwroot/cicd-nuxt3.zeroojs.com/app/.nuxt # 目标路径（服务器）
       # 在服务器端执行相关指令
       - name: Executing remote ssh commands
         uses: appleboy/ssh-action@master
