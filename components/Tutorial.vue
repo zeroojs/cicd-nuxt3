@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: your project
+ * @version: 0.0.0
+ * @Author: Minyoung
+ * @Date: 2022-08-22 23:01:33
+ * @LastEditors: Minyoung
+ * @LastEditTime: 2022-08-23 08:51:40
+-->
 <!-- Please remove this file from your project -->
 <template>
   <div class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
@@ -15,6 +23,9 @@
         </p>
         <p class="mt-4 pt-4 text-gray-800 border-t border-dashed">
           To get started, remove <code class="bg-gray-100 text-sm p-1 rounded border">components/Tutorial.vue</code> and start coding in <code class="bg-gray-100 text-sm p-1 rounded border">pages/index.vue</code>. Have fun!
+        </p>
+        <p class="mt-4 pt-4 text-gray-800 border-t border-dashed">
+          Version 1.0.2
         </p>
       </div>
       <div class="flex justify-center pt-4 space-x-2">
